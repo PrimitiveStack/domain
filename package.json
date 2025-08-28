@@ -23,7 +23,7 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.2.2",
-		"@primitivestack/config": "0.0.1",
+		"@primitivestack/config": "0.0.2",
 		"@types/node": "24.3.0",
 		"tsdown": "latest",
 		"typescript": "5.8.3"
