@@ -1,15 +1,12 @@
 import { UniqueEntityID } from './UniqueEntityID';
 
-export abstract class Entity<T> {
-	protected readonly id: UniqueEntityID;
-	protected readonly props: T;
-
-	protected constructor(props: T, id: UniqueEntityID | undefined) {
-		this.props = props;
+export abstract class Entity {
+	readonly id: UniqueEntityID;
+	protected constructor(id: UniqueEntityID | undefined) {
 		this.id = id ?? new UniqueEntityID();
 	}
 
-	public equals(entity: Entity<T>) {
+	public equals(entity: Entity) {
 		if (this === entity) {
 			return true;
 		}
