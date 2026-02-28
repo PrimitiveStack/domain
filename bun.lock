@@ -6,7 +6,7 @@
       "name": "@primitivestack/domain",
       "devDependencies": {
         "@biomejs/biome": "2.2.2",
-        "@primitivestack/config": "0.0.2",
+        "@primitivestack/config": "^1.0.2",
         "@semantic-release/commit-analyzer": "^12.0.0",
         "@semantic-release/git": "^10.0.1",
         "@semantic-release/github": "^10.0.6",
@@ -105,7 +105,7 @@
 
     "@pnpm/npm-conf": ["@pnpm/npm-conf@3.0.2", "", { "dependencies": { "@pnpm/config.env-replace": "^1.1.0", "@pnpm/network.ca-file": "^1.0.1", "config-chain": "^1.1.11" } }, "sha512-h104Kh26rR8tm+a3Qkc5S4VLYint3FE48as7+/5oCEcKR2idC/pF1G6AhIXKI+eHPJa/3J9i5z0Al47IeGHPkA=="],
 
-    "@primitivestack/config": ["@primitivestack/config@0.0.2", "", {}, "sha512-6gu8bvFn5Pkmkxk7x1b+y/V4zkpGFL0dMslPlCLf9UGZ1g10b/R1T6ZSmJrfIvfh54paOA2cLunNk+pk5seYGg=="],
+    "@primitivestack/config": ["@primitivestack/config@1.0.2", "", {}, "sha512-XQo5WdgVwREAPtIdYhB3Z/UK7+UBg/oio/hgtrllDt2jX4rFnq/5zIRQzriCHxirqDyFXIgmWvmHuWo4p7WtwA=="],
 
     "@quansync/fs": ["@quansync/fs@1.0.0", "", { "dependencies": { "quansync": "^1.0.0" } }, "sha512-4TJ3DFtlf1L5LDMaM6CanJ/0lckGNtJcMjQ1NAV6zDmA0tEHKZtxNKin8EgPaVX1YzljbxckyT2tJrpQKAtngQ=="],
 
